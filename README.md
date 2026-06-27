@@ -36,8 +36,6 @@ Just **double-click `start.bat`**. It will:
 2. Install all dependencies
 3. Start the server
 
-Then open: **http://localhost:8000/docs**
-
 ### Option 2 — Manual (PowerShell)
 
 ```powershell
@@ -48,15 +46,6 @@ python -m venv venv
 # 2. Install dependencies
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-
-# 3. Run the server
-uvicorn standalone:app --reload --host 0.0.0.0 --port 8000
-```
-
-Open in your browser: **http://localhost:8000/docs**
-
-> See `COMMANDS.txt` for the full list of commands and troubleshooting.
-
 ---
 
 ## 🔑 Configuration
