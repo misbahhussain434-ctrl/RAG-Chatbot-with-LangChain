@@ -1,6 +1,6 @@
 # QuickRAG
 
-A lightweight **Retrieval-Augmented Generation (RAG)** service. Upload your documents (PDF / text), and ask questions — the system retrieves the most relevant chunks from your data and generates grounded, context-aware answers using a Groq LLM.
+A lightweight **Retrieval-Augmented Generation (RAG)** service. Upload your documents (PDF), and ask questions — the system retrieves the most relevant chunks from your data and generates grounded, context-aware answers using a Groq LLM.
 
 ---
 
